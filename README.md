@@ -5,4 +5,4 @@ Useful math functions with heavy emphasis on ease of use and interoperability be
 
 ## Documentation
 
-For detailed documentation, please visit the [project documentation](https://mjt-engine.github.io/animate).
+For detailed documentation, please visit the [project documentation](https://mjt-engine.github.io/math).
