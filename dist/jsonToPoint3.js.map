@@ -1,0 +1,1 @@
+{"version":3,"file":"jsonToPoint3.js","sourceRoot":"","sources":["../src/jsonToPoint3.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,YAAY,CAAC,IAAY;IACvC,OAAO,IAAI,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC;AAC1B,CAAC","sourcesContent":["import { Point3 } from \"./type/Point\";\n\nexport function jsonToPoint3(json: string): Point3 {\n  return JSON.parse(json);\n}\n"]}

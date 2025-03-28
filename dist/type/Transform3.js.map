@@ -1,0 +1,1 @@
+{"version":3,"file":"Transform3.js","sourceRoot":"","sources":["../../src/type/Transform3.ts"],"names":[],"mappings":"","sourcesContent":["import { Point3 } from \"./Point\";\n\nexport type Transform3 = {\n  position: Point3;\n  rotation: Point3;\n  scale: Point3;\n};\n"]}

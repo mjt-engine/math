@@ -1,0 +1,1 @@
+{"version":3,"file":"XY.js","sourceRoot":"","sources":["../../src/type/XY.ts"],"names":[],"mappings":"","sourcesContent":["import { Vec2, Vec3, Vec4 } from \"./Vec\";\n\n\nexport type XY = Vec2;\nexport type XYA = Vec3;\nexport type XYZ = Vec3;\nexport type XYZW = Vec4;\nexport type XYZA = Vec4;\n"]}
