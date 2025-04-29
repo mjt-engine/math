@@ -1,6 +1,6 @@
 {
   "name": "@mjt-engine/math",
-  "version": "2025.3.28-1802",
+  "version": "2025.4.29-1058",
   "sideEffects": false,
   "description": "math module",
   "main": "./dist/index.js",

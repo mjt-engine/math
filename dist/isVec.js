@@ -1,4 +1,5 @@
+import { isIndexable } from "@mjt-engine/object";
 export function isVec(maybe) {
-    return Array.isArray(maybe);
+    return isIndexable(maybe);
 }
 //# sourceMappingURL=isVec.js.map
