@@ -1,5 +1,6 @@
+import { lengthOf } from "@mjt-engine/object";
 import { Vec1 } from "./type/Vec";
 
 export function isVec1(maybe: unknown): maybe is Vec1 {
-  return Array.isArray(maybe) && maybe.length > 0;
+  return lengthOf(maybe) > 0;
 }

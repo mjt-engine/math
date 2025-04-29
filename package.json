@@ -19,9 +19,10 @@
   "license": "MIT",
   "devDependencies": {
     "typedoc": "^0.27.9",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@flatten-js/core": "^1.2.24"
+    "@flatten-js/core": "^1.6.2",
+    "@mjt-engine/object": "github:mjt-engine/object"
   }
 }
