@@ -117,6 +117,12 @@ import { toTransform3 } from "./toTransform3";
 import { includesPoint } from "./includesPoint";
 import { removeDuplicatePoints } from "./removeDuplicatePoints";
 import { isEqual } from "./isEqual";
+import { lengthSquared2 } from "./lengthSquared2";
+import { lengthSquared4 } from "./lengthSquared4";
+import { lengthSquared3 } from "./lengthSquared3";
+import { isWithinRange2 } from "./isWithinRange2";
+import { isWithinRange3 } from "./isWithinRange3";
+import { isWithinRange4 } from "./isWithinRange4";
 export const Maths = {
     toTransform3,
     add,
@@ -170,6 +176,9 @@ export const Maths = {
     length0,
     length1,
     length2,
+    lengthSquared2,
+    lengthSquared3,
+    lengthSquared4,
     length3,
     length4,
     lengthPoint,
@@ -237,5 +246,8 @@ export const Maths = {
     includesPoint,
     removeDuplicatePoints,
     isEqual,
+    isWithinRange2,
+    isWithinRange3,
+    isWithinRange4,
 };
 //# sourceMappingURL=Maths.js.map

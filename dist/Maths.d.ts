@@ -83,6 +83,9 @@ import { wOf } from "./wOf";
 import { xOf } from "./xOf";
 import { yOf } from "./yOf";
 import { zOf } from "./zOf";
+import { lengthSquared2 } from "./lengthSquared2";
+import { lengthSquared4 } from "./lengthSquared4";
+import { lengthSquared3 } from "./lengthSquared3";
 export declare const Maths: {
     toTransform3: (o3: Partial<import(".").Transform3>) => import(".").Transform3;
     add: (a: number, b: number) => number;
@@ -136,6 +139,9 @@ export declare const Maths: {
     length0: typeof length0;
     length1: typeof length1;
     length2: typeof length2;
+    lengthSquared2: typeof lengthSquared2;
+    lengthSquared3: typeof lengthSquared3;
+    lengthSquared4: typeof lengthSquared4;
     length3: typeof length3;
     length4: typeof length4;
     lengthPoint: typeof lengthPoint;
@@ -202,4 +208,7 @@ export declare const Maths: {
     includesPoint: (points: import(".").Point[], p: import(".").Point) => boolean;
     removeDuplicatePoints: <P extends import(".").Point>(points: P[]) => P[];
     isEqual: (a: import(".").Point, b: import(".").Point) => boolean;
+    isWithinRange2: (a: import(".").Point2, b: import(".").Point2, range: number) => boolean;
+    isWithinRange3: (a: import(".").Point3, b: import(".").Point3, range: number) => boolean;
+    isWithinRange4: (a: import(".").Point3, b: import(".").Point3, range: number) => boolean;
 };

@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-05-02
+- added fast withinRange ([d27a4ab](https://github.com/mjt-engine/math/commit/d27a4abbea3f6fff9a46e77664f48eec8b78dc4e)) by Matt Taylor
+
 ## 2025-05-01
 - remove external deps from build ([bdc7ceb](https://github.com/mjt-engine/math/commit/bdc7ceb1ff4b2b38a735b190e12eb9e06ecb0b4a)) by Matt Taylor
 - remove deps from build artifacts ([a6d0f4c](https://github.com/mjt-engine/math/commit/a6d0f4c028ba238178bc4cc75948c4ef9de0aa43)) by Matt Taylor
