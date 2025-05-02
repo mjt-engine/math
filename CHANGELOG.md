@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-05-01
+- switched to vite build ([fb6bf2a](https://github.com/mjt-engine/math/commit/fb6bf2a82484f8656a759247a80fadf2e6d22e1b)) by Matt Taylor
+
 ## 2025-04-29
 - included TypedArrays as valid vectors ([33fe205](https://github.com/mjt-engine/math/commit/33fe205c68b54da5857d9c4f5612cb19b2766f00)) by Matt Taylor
 
