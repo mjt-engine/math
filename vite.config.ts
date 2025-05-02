@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import { exec } from "node:child_process";
-import { dependencies, } from "./package.json";
+import { dependencies } from "./package.json";
 
 function emitDtsPlugin() {
   return {
