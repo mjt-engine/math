@@ -2,6 +2,7 @@
 
 
 ## 2025-05-01
+- remove deps from build artifacts ([a6d0f4c](https://github.com/mjt-engine/math/commit/a6d0f4c028ba238178bc4cc75948c4ef9de0aa43)) by Matt Taylor
 - switched to vite build ([fb6bf2a](https://github.com/mjt-engine/math/commit/fb6bf2a82484f8656a759247a80fadf2e6d22e1b)) by Matt Taylor
 
 ## 2025-04-29
